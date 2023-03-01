@@ -1,0 +1,68 @@
+*{font-family:'Poppins', sans-serif;}
+body { background-color: aquamarine;
+
+}
+   
+header {background-color: rgb(175, 131, 215);
+color: aliceblue;
+padding: 25px;}
+h1{ text-align: center;
+       font-size: 40px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       color: blue}
+h2{text-align: center}
+
+.nav-enlace{
+   display: inline-block;
+   background-color: salmon;
+   color: aquamarine;
+   padding: 10px 30px;
+   text-decoration: none;
+}
+
+.nav-enlace:hover{
+   background: rosybrown;
+}
+nav{
+   background: rebeccapurple;
+   padding: 10px;
+   display: flex;
+   justify-content: space-around;
+
+}
+
+
+
+section {
+   width: 350px;;
+   border: 5px solid grey;
+   padding: 80px;
+   margin: 10px 10px 130px
+  
+
+   } 
+
+   .left{float:left;
+   margin: 60px;}
+   .right{float: right;
+       margin: 60px; }
+
+
+   span{
+   
+   width: 300px}
+  
+#mi_parrafo { 
+
+   color:white;
+   font-size: 20px;
+   text-align: center;}
+
+section span {
+   color: blueviolet}
+
+footer{
+   margin: 30px;
+   background-color:grey;
+    padding: 3 rem;
+   color: aliceblue;}
